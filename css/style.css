@@ -1,0 +1,46 @@
+.text {
+  flex-direction: row;
+  justify-content: right;
+}
+
+h1 {
+  font-weight: bold;
+  color: navy;
+  vertical-align: center 1000px;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.text_parent {
+  text-align: right;
+}
+
+.child {
+  display: inline-block;
+  padding: 20px 20px;
+  font-weight: bold;
+  color: navy;
+}
+
+.text1 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.box {
+  background: navy;
+  width: 1000px;
+  height: 100px;
+}
+
+#mainArea {
+  float: right;
+}
+
+#mainArea img {
+  width: 500px;
+  height: 350px;
+  right: 0;
+  margin-top: 50px;
+}
