@@ -22,25 +22,32 @@ h1 {
   color: navy;
 }
 
-.text1 {
-  text-align: left;
-  font-weight: bold;
-  font-size: 50px;
-}
-
-.box {
-  background: navy;
-  width: 1000px;
-  height: 100px;
-}
-
 #mainArea {
   float: right;
 }
 
 #mainArea img {
-  width: 500px;
-  height: 350px;
+  width: 700px;
+  height: 400px;
   right: 0;
   margin-top: 50px;
+  margin-right: 50px;
+  position: relative;
+  z-index: 10;
+}
+
+.text1 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 50px;
+  position: absolute;
+  top: 500px;
+  left: 50px;
+}
+
+.box {
+  background: navy;
+  width: 950px;
+  height: 200px;
+  z-index: 0;
 }
