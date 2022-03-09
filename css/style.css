@@ -31,9 +31,9 @@ a {
 
 #mainArea img {
   height: 400px;
-  position: relative;
-  top: 100px;
-  left: 700px;
+  position: fixed;
+  top: 250px;
+  right: 0px;
   z-index: 10;
 }
 
@@ -43,6 +43,7 @@ a {
   font-size: 50px;
   position: absolute;
   left: 150px;
+  top: 500px;
 }
 
 .box {
